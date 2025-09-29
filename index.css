@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    background-image:url("/images/heroimg.png");
+    background-size: cover ;
+    background-position: center;
+    height: 350px;
+    width: 720px;
+    margin: 0 auto;
+    text-shadow: 0px 0px 1px black;
+    
+}
+
+#title{
+    background: #0077b6;
+    margin: 150px auto 20px auto;
+    padding: 10px 40px;
+    border-radius: 10px;
+
+
+}
+
+#title-decs{
+    background: #0077b6;
+    margin: 0 50px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#activities{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 600px;
+    background: linear-gradient(#0096c7,#0077b6);
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 10px 0px 50px 0px;
+}
+
+#activities-title{
+    margin-top: 0px ;
+    padding-top: 20px;
+}
+
+.activities-container{
+    display: flex;
+}
+
+
+.box{
+    width: 200px;
+    /* background: #0096c7; */
+    background: linear-gradient(#0077b6,#0096c7);
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+
+.spot-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#gallery{
+    width: 700px;
+    height: 400px;
+    background: #ebf2fa;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    object-fit: cover;
+    padding: 20px 10px;
+    
+}
+
+.g-img{
+    width: 200px;
+    border: 5px solid #0096c7;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#location{
+    height:300px;
+    width: 720px;
+    margin: 0 auto;
+     background: linear-gradient(#0077b6,#0096c7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location h2{
+    display: block;
+}
+
+.individual-loc{
+    background: white;
+    padding: 5px;
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+.individual-loc img{
+    display: block;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.individual-loc a{
+    padding-top: 10px;
+    color: #0077b6;
+}
+
+#footer{
+    height: 120px;
+    background: #13293d;
+    width: 720px;
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 10px  0px;
+}
+
+#foot-para{
+    padding:0px 50px 20px 50px;
+    font-style: italic;
+}
